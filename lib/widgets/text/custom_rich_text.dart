@@ -7,7 +7,7 @@ TextSpan customRichText({required String text, required Color textColor}) {
     style: TextStyle(
       color: textColor,
       fontWeight: FontWeight.bold,
-      fontSize: 12.sp,
+      fontSize: 15.sp,
     ),
   );
 }
