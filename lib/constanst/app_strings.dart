@@ -19,4 +19,6 @@ class AppStrings{
   static const String ratings = "4.9/5";
   static const String openToWOrk = "Open to Work";
   static const String letsConnect = "Let's Connect";
+  static const String featuredProducts = "Featured Products";
+  static const String requestDemo = "Request Demo";
 }
