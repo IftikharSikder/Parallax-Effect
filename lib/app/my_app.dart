@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:portfolio/app/routers/app_routers.dart';
+import 'package:portfolio/constanst/app_card.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

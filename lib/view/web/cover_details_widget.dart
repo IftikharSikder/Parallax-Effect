@@ -119,7 +119,10 @@ class CoverDetailsWidget extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 10.h),
-                        DescriptionText(text: AppStrings.description, fSize: 4.sp),
+                        DescriptionText(
+                          text: AppStrings.description,
+                          fSize: 4.sp,
+                        ),
                         SizedBox(height: 20.h),
                         Row(
                           children: [
