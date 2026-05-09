@@ -1,16 +1,35 @@
-# portfolio
+# Flutter Parallax Effect
 
-A new Flutter project.
+A Flutter UI that simulates a parallax animations, sliding cards — styled as a ticket.
+
+## Preview
+
+<video src="https://github.com/user-attachments/assets/2d8af0a6-26c0-4030-abaa-c14e725a8911" controls autoplay loop muted width="100%"></video>
+
+## Features
+
+- **Animated bottom sheet** — drag or tap to expand from a compact tray to full screen
+- **Parallax card transitions** — icons shift position and scale as the sheet opens, creating a sense of depth
+- **Layered content** — booked exhibition items animate independently for a staggered reveal
+- **Gesture support** — fling velocity detection for natural drag-to-open/close behaviour
+- **Custom typography** — uses SF Pro Display across multiple weights for a polished, editorial feel
+
+## Tech Stack
+
+| Layer | Detail |
+|---|---|
+| Framework | Flutter (Dart) |
+| Animation | `AnimationController` + `lerpDouble` |
+| Gestures | `GestureDetector` with drag + fling |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK `^3.41.6`
+- Android / iOS
