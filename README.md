@@ -4,8 +4,6 @@ A Flutter UI that simulates a parallax animations, sliding cards — styled as a
 
 ## Preview
 
-## Preview
-
 <div align="center">
   <video src="https://github.com/user-attachments/assets/2d8af0a6-26c0-4030-abaa-c14e725a8911" controls autoplay loop muted width="300"></video>
 </div>
